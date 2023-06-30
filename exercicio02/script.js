@@ -18,9 +18,9 @@ function verificar(){
             genero = 'Homem';
 
             if(idade >=0 && idade <10 ){
-                img.setAttribute('src', './img/menino.png')
+                img.setAttribute('src', './img/menino.png' )
             }else if (idade < 30 ) {
-                img.setAttribute('src', './img/homemJovem.png')
+                img.setAttribute('src', './img/homemJovem.png' )
             }else if(idade < 50){
                 img.setAttribute('src', './img/homemAdulto.png')
             }else{
